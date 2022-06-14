@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
         - name: recruiter-search-ms
-          image: mkhader88/job-search-recruiter-search-service:latest
+          image: mkhader88/job-search-recruiter-search-service:1
           imagePullPolicy: Always
           ports:
           - containerPort: 8000

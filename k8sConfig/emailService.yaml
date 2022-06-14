@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
         - name: email-service-ms
-          image: mkhader88/job-search-email-service:latest
+          image: mkhader88/job-search-email-service:1
           imagePullPolicy: Always
           ports:
           - containerPort: 8000

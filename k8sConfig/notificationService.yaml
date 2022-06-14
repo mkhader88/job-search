@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
         - name: notification-service-ms
-          image: mkhader88/job-search-notification-service:latest
+          image: mkhader88/job-search-notification-service:1
           imagePullPolicy: Always
           ports:
           - containerPort: 8000

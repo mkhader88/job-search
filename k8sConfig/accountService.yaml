@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
         - name: account-ms
-          image: mkhader88/job-search-account-service:latest
+          image: mkhader88/job-search-account-service:1
           imagePullPolicy: Always
           ports:
           - containerPort: 8000
