@@ -4,6 +4,11 @@ helm install candidates-database bitnami/mysql \
 --set auth.database=candidates_db \
 --set architecture=replication
 
+helm install account-database bitnami/mysql \
+--set auth.rootPassword=root \
+--set secondary.replicaCount=3 \
+--set auth.database=account_db \
+--set architecture=replication
 
 helm install notification-open-mongo-db-server bitnami/mongodb \
 --set auth.enabled=false \
