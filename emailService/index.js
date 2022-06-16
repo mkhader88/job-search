@@ -1,7 +1,6 @@
 require("dotenv").config();
 const express = require("express");
 const { Kafka } = require("kafkajs");
-const sendEmail = require("./sendgrid");
 const mailTo = require("./email");
 const app = express();
 

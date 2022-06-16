@@ -37,8 +37,6 @@ spec:
             value: "email-service-app"
           - name: EMAIL_SERVICE_GROUP
             value: "email-service-app"
-          - name: SENDGRID_API_KEY
-            value: "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"
 ---
 apiVersion: v1
 kind: Service
